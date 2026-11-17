@@ -1,0 +1,68 @@
+[
+  {
+    "name": "plain ASCII",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 3: tell me a story",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%203%3A%20tell%20me%20a%20story"
+  },
+  {
+    "name": "Nordic letters",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 4: åäö and ÅÄÖ, with ø and æ",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%204%3A%20%C3%A5%C3%A4%C3%B6%20and%20%C3%85%C3%84%C3%96%2C%20with%20%C3%B8%20and%20%C3%A6"
+  },
+  {
+    "name": "fractions",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 5: why ½ and ⅓ and ¾?",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%205%3A%20why%20%C2%BD%20and%20%E2%85%93%20and%20%C2%BE%3F"
+  },
+  {
+    "name": "ampersand",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 6: this & that & the other",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%206%3A%20this%20%26%20that%20%26%20the%20other"
+  },
+  {
+    "name": "hash",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 7: the #1 question",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%207%3A%20the%20%231%20question"
+  },
+  {
+    "name": "emoji",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 8: a toast 🍸🧚 to the fairy",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%208%3A%20a%20toast%20%F0%9F%8D%B8%F0%9F%A7%9A%20to%20the%20fairy"
+  },
+  {
+    "name": "unreserved marks",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 9: a (secret) note *!~ with_under-scores. and 'quotes'",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%209%3A%20a%20(secret)%20note%20*!~%20with_under-scores.%20and%20'quotes'"
+  },
+  {
+    "name": "url specials",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 10: c/d? k=v + 3% less, or 50%",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%2010%3A%20c%2Fd%3F%20k%3Dv%20%2B%203%25%20less%2C%20or%2050%25"
+  },
+  {
+    "name": "folder with spaces and quote",
+    "folder": "/Volumes/My Disk/someone's fairy",
+    "prompt": "Door 11: hello",
+    "fragment": "v=1&folder=%2FVolumes%2FMy%20Disk%2Fsomeone's%20fairy&q=Door%2011%3A%20hello"
+  },
+  {
+    "name": "percent and plus in folder",
+    "folder": "/home/x/a+b%20c/fairy",
+    "prompt": "Door 12: all on one line",
+    "fragment": "v=1&folder=%2Fhome%2Fx%2Fa%2Bb%2520c%2Ffairy&q=Door%2012%3A%20all%20on%20one%20line"
+  },
+  {
+    "name": "2,000-character prompt",
+    "folder": "/home/someone/fairy",
+    "prompt": "Door 7: a very long door, with ½ & a dash of everything; åäö! la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la ",
+    "fragment": "v=1&folder=%2Fhome%2Fsomeone%2Ffairy&q=Door%207%3A%20a%20very%20long%20door%2C%20with%20%C2%BD%20%26%20a%20dash%20of%20everything%3B%20%C3%A5%C3%A4%C3%B6!%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20la%20"
+  }
+]

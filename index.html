@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <meta name="robots" content="noindex">
+  <meta name="referrer" content="no-referrer">
+  <title>Clover's Door</title>
+  <style>
+    :root { color-scheme: light dark; --paper: #f6efdf; --ink: #2b2418; --green: #2f5d3a; --rule: #b9a77f; }
+    @media (prefers-color-scheme: dark) {
+      :root { --paper: #1d1a14; --ink: #ece3cf; --green: #8cc79a; --rule: #6b5f45; }
+    }
+    body { margin: 0; background: var(--paper); color: var(--ink);
+           font: 1.1rem/1.6 Georgia, "Times New Roman", serif; }
+    main { max-width: 36rem; margin: 0 auto; padding: 2rem 16px 3rem; }
+    h1 { font-weight: normal; font-style: italic; text-align: center; color: var(--green);
+         border-bottom: 1px solid var(--rule); padding-bottom: .5rem; }
+    .open { display: block; text-align: center; margin: 1.5rem 0; padding: .8rem 1rem;
+            background: var(--green); color: var(--paper); text-decoration: none;
+            border-radius: 6px; font-size: 1.2rem; letter-spacing: .03em; }
+    #prompt { white-space: pre-wrap; overflow-wrap: anywhere; font-family: ui-monospace, Consolas, monospace;
+              font-size: .95rem; border: 1px solid var(--rule); border-radius: 4px; padding: .75rem 1rem; }
+    button { font: inherit; color: var(--ink); background: transparent; border: 1px solid var(--rule);
+             border-radius: 4px; padding: .3rem 1rem; cursor: pointer; }
+    #copy-status { font-style: italic; min-height: 1.6em; }
+    .signed { text-align: right; font-style: italic; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Clover's Door</h1>
+
+  <noscript><p>My doorway needs its little bit of magic switched on, darling. Copy the words printed in my letter and paste them into my friend Monsieur Claude instead.</p></noscript>
+
+  <p id="trouble" hidden></p>
+
+  <p id="phone" hidden>Oh dear, Mr Mikael, I can only reach you at your desk. Open my letter there and step through again.</p>
+
+  <div id="door" hidden>
+    <a id="open" class="open" href="#">Step through my door</a>
+    <p>If my door sticks, copy the words below and paste them into my friend Monsieur Claude, then press Enter.</p>
+    <div id="prompt"></div>
+    <p><button id="copy" type="button">Copy the words</button></p>
+    <p id="copy-status" aria-live="polite"></p>
+    <p class="signed">&mdash; Clover</p>
+  </div>
+</main>
+<script type="module" src="page.js"></script>
+</body>
+</html>
