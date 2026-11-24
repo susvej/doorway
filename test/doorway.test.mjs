@@ -133,3 +133,36 @@ test("messages stay in character: no error codes", () => {
     assert.ok(!/error|undefined|null|exception/i.test(m), m);
   }
 });
+
+// Story 5.6: the doorway has no idea of dates, so after Christmas a door link
+// still opens exactly the same. Pin that down.
+test("page plan: the same Open link whatever the clock says (after Christmas too)", () => {
+  const v = VECTORS[0];
+  const before = planPage("#" + v.fragment, DESK, 0);
+  const beforePhone = planPage("#" + v.fragment, PHONE, 5);
+  const RealDate = globalThis.Date;
+  const fakeNow = RealDate.parse("2027-01-15T14:00:00Z");
+  class FakeDate extends RealDate {
+    constructor(...args) {
+      super(...(args.length ? args : [fakeNow]));
+    }
+    static now() {
+      return fakeNow;
+    }
+  }
+  globalThis.Date = FakeDate;
+  try {
+    assert.equal(new Date().toISOString(), "2027-01-15T14:00:00.000Z"); // the fake clock is on
+    assert.deepEqual(planPage("#" + v.fragment, DESK, 0), before);
+    assert.deepEqual(planPage("#" + v.fragment, PHONE, 5), beforePhone);
+  } finally {
+    globalThis.Date = RealDate;
+  }
+});
+
+test("neither doorway.js nor page.js looks at the date", () => {
+  for (const file of ["../doorway.js", "../page.js"]) {
+    const text = readFileSync(new URL(file, import.meta.url), "utf8");
+    assert.doesNotMatch(text, /Date/, file); // also catches Intl.DateTimeFormat, toLocaleDateString
+  }
+});
